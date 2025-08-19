@@ -137,7 +137,7 @@ if (!messageSentAutomatically) {
       const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-      countdownElement.innerHTML = `${days}D ${hours}H ${minutes}M ${seconds}s until Hammad's Birthday`;
+      countdownElement.innerHTML = `${days}D ${hours}H ${minutes}M ${seconds}s left`;
 }
 
     setInterval(updateCountdown, 1000);
